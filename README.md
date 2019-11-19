@@ -176,8 +176,6 @@ Pull Requests are welcome!
 4. Rebase your local changes against the master branch
 5. Create new Pull Request
 
-## Fork
-
 ## License
 
 [MIT](LICENSE)
