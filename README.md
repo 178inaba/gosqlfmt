@@ -2,7 +2,7 @@
 
 The gosqlfmt formats PostgreSQL statements in `.go` files into a consistent style.
 
-Forked by [kanmu/go-sqlfmt](https://github.com/kanmu/go-sqlfmt).
+Forked from [kanmu/go-sqlfmt](https://github.com/kanmu/go-sqlfmt).
 
 ## Example
 
