@@ -1,11 +1,8 @@
-# sqlfmt
-
-[![Build Status](https://travis-ci.org/kanmu/go-sqlfmt.svg?branch=master)](https://travis-ci.org/kanmu/go-sqlfmt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kanmu/go-sqlfmt)](https://goreportcard.com/report/github.com/kanmu/go-sqlfmt)
-
-## Description
+# gosqlfmt
 
 The sqlfmt formats PostgreSQL statements in `.go` files into a consistent style.
+
+Forked by [kanmu/go-sqlfmt](https://github.com/kanmu/go-sqlfmt).
 
 ## Example
 
@@ -84,13 +81,14 @@ ORDER BY
 
 ## Installation
 
-```bash
-run git clone and go build -o sqlfmt 
+```console
+$ go get -u github.com/178inaba/gosqlfmt
 ```
+
 ## Usage
 
 - Provide flags and input files or directory  
-  ```bash
+  ```console
   $ sqlfmt -w input_file.go 
   ```
 
@@ -161,8 +159,6 @@ run git clone and go build -o sqlfmt
 - Nested functions such as `sum(average(xxx))`
   - Currently being formatted into this: `SUM( AVERAGE(xxx))`
   - Ideally, it should be formatted into this: `SUM(AVERAGE(xxx))`
-  
- 
 
 ## Future Work
 
@@ -174,12 +170,18 @@ run git clone and go build -o sqlfmt
 Thank you for thinking of contributing to the sqlfmt!
 Pull Requests are welcome!
 
-1. Fork ([https://github.com/kanmu/go-sqlfmt))
+1. Fork this repository.
 2. Create a feature branch
 3. Commit your changes
 4. Rebase your local changes against the master branch
 5. Create new Pull Request
 
+## Fork
+
 ## License
 
-MIT
+[MIT](LICENSE)
+
+## Author
+
+[178inaba](https://github.com/178inaba)
