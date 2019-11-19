@@ -31,7 +31,7 @@ func init() {
 }
 
 func usage() {
-	fmt.Fprintf(os.Stderr, "usage: sqlfmt [flags] [path ...]\n")
+	fmt.Fprintf(os.Stderr, "usage: gosqlfmt [flags] [path ...]\n")
 	flag.PrintDefaults()
 }
 
