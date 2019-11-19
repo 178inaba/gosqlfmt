@@ -1,6 +1,6 @@
 # gosqlfmt
 
-The sqlfmt formats PostgreSQL statements in `.go` files into a consistent style.
+The gosqlfmt formats PostgreSQL statements in `.go` files into a consistent style.
 
 Forked by [kanmu/go-sqlfmt](https://github.com/kanmu/go-sqlfmt).
 
@@ -89,7 +89,7 @@ $ go get -u github.com/178inaba/gosqlfmt
 
 - Provide flags and input files or directory  
   ```console
-  $ sqlfmt -w input_file.go 
+  $ gosqlfmt -w input_file.go 
   ```
 
 ## Flags
@@ -112,7 +112,7 @@ $ go get -u github.com/178inaba/gosqlfmt
 
 ## Limitations
 
-- The `sqlfmt` is only able to format SQL statements that are surrounded with **back quotes** and values in **`QueryRow`**, **`Query`**, **`Exec`**  functions from the `"database/sql"` package.
+- The `gosqlfmt` is only able to format SQL statements that are surrounded with **back quotes** and values in **`QueryRow`**, **`Query`**, **`Exec`**  functions from the `"database/sql"` package.
 
   The following SQL statements will be formatted:
 
@@ -167,7 +167,7 @@ $ go get -u github.com/178inaba/gosqlfmt
 
 ## Contribution
 
-Thank you for thinking of contributing to the sqlfmt!
+Thank you for thinking of contributing to the gosqlfmt!
 Pull Requests are welcome!
 
 1. Fork this repository.
